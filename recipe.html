@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Page</title>
+    <style>
+        body {
+            background-image: url('images/recipe.jpg');
+            /* Replace 'your-image.jpg' with the path to your background image */
+            background-size: cover;
+            color: #e45829;
+            /* Orange color */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        #recipe-form {
+            max-width: 600px;
+            margin: auto;
+        }
+        
+        #recipe-form input,
+        #recipe-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        
+        #recipe-form button {
+            padding: 10px;
+            background-color: #e45829;
+            /* Orange color */
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Create Your Recipe</h1>
+    </header>
+
+    <main>
+        <div id="recipe-form">
+            <label for="recipe-images">Upload Images:</label>
+            <input type="file" id="recipe-images" name="recipe-images" accept="image/*" multiple>
+
+            <label for="recipe-description">Brief Description:</label>
+            <textarea id="recipe-description" name="recipe-description" rows="4"></textarea>
+
+            <button type="submit">Post Recipe</button>
+        </div>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore More - Travinn</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Travinn</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="user-buttons">
+            <button id="loginBtn">Login</button>
+            <button id="signupBtn">Sign Up</button>
+        </div>
+    </header>
+
+    <section id="hotels">
+        <h2>Explore More Hotels</h2>
+
+        <div class="hotel-card">
+            <img src="hotel1.jpg" alt="Hotel 1">
+            <h3>Seaside Resort</h3>
+            <p>Experience the beauty of the beach.</p>
+            <a href="booking.html" class="book-button">Book Now</a>
+        </div>
+
+        <div class="hotel-card">
+            <img src="hotel2.jpg" alt="Hotel 2">
+            <h3>Mountain Lodge</h3>
+            <p>A retreat in the heart of the mountains.</p>
+            <a href="booking.html" class="book-button">Book Now</a>
+        </div>
+
+        <div class="hotel-card">
+            <img src="hotel3.jpg" alt="Hotel 3">
+            <h3>City Lights Hotel</h3>
+            <p>Stay in the bustling city center.</p>
+            <a href="booking.html" class="book-button">Book Now</a>
+        </div>
+
+        <!-- Add more hotel cards as needed -->
+    </section>
+
+    <section id="rooms">
+        <h2>Explore More Rooms</h2>
+
+        <div class="room-card">
+            <img src="room4.jpg" alt="Room 4">
+            <h3>Suite with a View</h3>
+            <p>Breathtaking views from your room.</p>
+            <a href="booking.html" class="book-button">Book Now</a>
+        </div>
+
+        <div class="room-card">
+            <img src="room5.jpg" alt="Room 5">
+            <h3>Cozy Retreat</h3>
+            <p>Escape to a comfortable and cozy space.</p>
+            <a href="booking.html" class="book-button">Book Now</a>
+        </div>
+
+        <div class="room-card">
+            <img src="room6.jpg" alt="Room 6">
+            <h3>Family Suite</h3>
+            <p>Perfect for family vacations.</p>
+            <a href="booking.html" class="book-button">Book Now</a>
+        </div>
+
+        <!-- Add more room cards as needed -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Travinn. All rights reserved.</p>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="firebase-config.js"></script>
+    <script src="auth.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
